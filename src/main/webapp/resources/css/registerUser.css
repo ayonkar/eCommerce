@@ -1,0 +1,52 @@
+
+html {
+	
+    /*background-color : #ffda99;*/
+    height : 100%;
+    background: linear-gradient( #ffb833, #fff6e6);
+   
+}
+form {
+	/*background-color : #ffe4b5;*/
+	background: linear-gradient( #ffc14d, #fff6e6);
+	align : center;
+    width: 300px;
+    
+    outline: #ffedcc solid 5px;
+    -webkit-animation: mymove 5s infinite; 
+    animation: mymove 5s infinite;
+    
+    position: fixed;
+    top: 25%;
+    left: 45%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+
+@-webkit-keyframes mymove {
+    50% {outline-width: 30px;}
+}
+
+@keyframes mymove {
+    50% {outline-width: 30px;}
+}
+
+[type=submit]{
+
+    margin-top: 10px;
+    width: 210px;
+    height: 25px;   
+    font-size:15px;
+    margin-left: 80px;
+    background-color : #fff6e6;
+}
+a{
+	color : black;	
+}
+h4 {
+	
+	font-size: 30px;
+	
+}
+

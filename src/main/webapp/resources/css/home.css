@@ -1,0 +1,71 @@
+
+/*#grad {
+
+	background: linear-gradient(#ffda99, #ffe4b5);
+}*/
+html {
+	
+    /*background-color : #ffda99;*/
+     height : 100%;
+    background: linear-gradient( #ffb833, #fff6e6);
+   
+}
+h2 {
+    text-align : center;
+}
+
+form {
+	background: linear-gradient( #ffc14d, #fff6e6);
+	/*background-color : #ffe4b5; */
+	align : center;
+    width: 300px;
+    
+    outline-style: solid;
+    outline-color: black;
+    outline-width:thin;
+    
+    position: fixed;
+    top: 25%;
+    left: 45%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+[type=submit]{
+
+    margin-left: 115px;
+    margin-top: 10px;
+    width: 210px;
+    height: 25px;   
+    font-size:15px;
+    margin-left: 2cm;
+    background-color : #fff6e6;
+}
+h5{
+	 overflow: hidden;
+	 text-align: center;
+}
+
+h5:before,
+h5:after {
+	
+	 background-color: black;
+	 content: "";
+	 display: inline-block;
+	 height: 1px;
+	 position: relative;
+	 vertical-align: middle;
+	 width: 50%;
+}
+h5:before {
+	
+	 right: 0.5em;
+	 margin-left: -50%;
+}
+h5:after {
+	
+	 left: 0.5em;
+	 margin-right: -50%;
+}
+a{
+	color : black;	
+}
